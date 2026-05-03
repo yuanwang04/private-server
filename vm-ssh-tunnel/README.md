@@ -23,12 +23,14 @@ Based on Oracle's always free tier:
 
 ## Infrastructure Setup
 
-The infrastructure setup is split into 5 detailed steps:
+The infrastructure setup is split into 6 detailed steps:
+
 1. [Step 1: Prerequisites (Human Interaction Required)](./step-1-prerequisites.md)
 2. [Step 2: Create Network Dependencies (Agent Executable)](./step-2-network.md)
 3. [Step 3: Create the VM (Agent Executable)](./step-3-create-vm.md)
 4. [Step 4: Create and Attach Block Volume (Agent Executable)](./step-4-block-volume.md)
 5. [Step 5: SSH into VM and Setup Infrastructure (Agent Executable)](./step-5-setup-infra.md)
+6. [Step 6: Deploying Applications (Agent Skill)](./step-6-deployment.md)
 
 ## Connection Instructions
 
