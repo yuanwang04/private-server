@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Server - Landing Page</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 { margin-bottom: 40px; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 900px;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        .card h2 { margin-top: 0; font-size: 1.2rem; }
+        .card p { color: #666; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <h1>My Private Apps</h1>
+    <div class="grid">
+        <a href="../calculator/index.html" class="card">
+            <h2>🧮 Calculator</h2>
+            <p>A simple front-end only calculator application.</p>
+        </a>
+        <a href="../fridge-manager/index.html" class="card">
+            <h2>❄️ Fridge Manager</h2>
+            <p>Track your groceries. Connects to a backend database.</p>
+        </a>
+        <a href="../stitch-pattern-generator/index.html" class="card">
+            <h2>🧶 Stitch Pattern Generator</h2>
+            <p>Generate creative stitch patterns (front-end only).</p>
+        </a>
+    </div>
+</body>
+</html>
